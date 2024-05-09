@@ -63,16 +63,18 @@ const Features = () => {
                 game-changing feature. Get a birds eye view with our
                 customizable dashboard.
               </p>
-              <div className="flex w-full gap-x-24px pt-[25px]">
+              <div className="flex w-full gap-x-[24px] ">
                 <div className="w-1/2 flex-col gap-y-3 ">
-                  <h3 className="text-[#172026] font-medium text-3xl ">100+</h3>
-                  <p className="text-[#5F7896] font-normal text-lg">
-                    Customer sales
-                  </p>
+                  <h3 className="text-[#172026] font-medium text-[20px] ">
+                    100+
+                  </h3>
+                  <p className="text-[#5F7896] font-normal">Customer sales</p>
                 </div>
                 <div className="w-1/2 flex-col gap-y-3 ">
-                  <h3 className="text-[#172026] font-medium text-3xl ">800+</h3>
-                  <p className="text-[#5F7896] font-normal text-lg">
+                  <h3 className="text-[#172026] font-medium text-[20px] ">
+                    800+
+                  </h3>
+                  <p className="text-[#5F7896] font-normal">
                     Customer Monitoring
                   </p>
                 </div>
@@ -80,7 +82,7 @@ const Features = () => {
 
               <p
                 className="flex items-center pt-6 lg:text-lg
-           py-2 gap-x-3 font-medium text-base text-[#EB2891]"
+                  py-2 gap-x-3 font-medium text-base text-[#EB2891]"
               >
                 Learn More
                 <span>

@@ -69,7 +69,7 @@ const FeaturesComponent: React.FC<FeaturesComponentProps> = (props) => {
           Learn More
           <span>
             {/* <Image src={bluebutton} alt="blue-buttton" /> */}
-            {/* <FaArrowCircleRight className={`text-[${props.textColor}]`} /> */}
+            <FaArrowCircleRight className={`text-[${props.textColor}]`} />
           </span>
         </p>
       </div>
