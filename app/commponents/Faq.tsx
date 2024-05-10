@@ -1,6 +1,5 @@
 "use client";
-
-import { React, useState } from "react";
+import { useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
 const faq = [
@@ -24,13 +23,13 @@ const faq = [
 
 const Faq = () => {
   const [expand, setexpand] = useState(Array(faq.length).fill(false));
-  const handleExpand = (index) => {
+  const handleExpand = (index: number) => {
     const newExpand = [...expand];
     newExpand[index] = !newExpand[index];
     setexpand(newExpand);
   };
   return (
-    <div className="px-[20px] lg:container lg:px-20 mx-auto ">
+    <div className="px-[20px] lg:container lg:px-18 mx-auto ">
       <div className="flex flex-col py-[48px] w-full">
         <div>
           <h3 className="font-medium text-sm lg:text-lg text-[#EB2891]">
